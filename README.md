@@ -12,4 +12,4 @@ Add ```using SheepYhangCN.RandomExtension;``` at the head of your C# file
 ```RandomX.Chance(Random inst,chance in percent)``` => You inserted chance to get true, otherwise get false<br>
 ```RandomX.Chance<T>(Random inst,chance in percent,value1,value2,value3...)``` => You inserted chance to get value1, otherwise get a random value in [value2,value3...]<br>
 ```RandomX.ChanceInList<T>(Random inst,chance in percent,value1,[value2,value3...])``` => You inserted chance to get value1, otherwise get a random value in [value2,value3...]<br>
-```RandomX.ChancePerItem<T>(Random inst,{[value1,chance in percent],[value2,chance in percent]...})``` => You inserted chances to get values
+```RandomX.ChancePerItem<T>(Random inst,{[value1,chance],[value2,chance]...})``` => You inserted chances to get values

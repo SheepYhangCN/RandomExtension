@@ -9,4 +9,4 @@
 ```RandomX.Chance(Random實例,百分制概率)``` => 你輸入的概率返回true，否則返回false<br>
 ```RandomX.Chance<T>(Random實例,百分制概率,value1,value2,value3...)``` => 你輸入的概率返回true，否則從[value2,value3...]中隨機返回一個<br>
 ```RandomX.ChanceInList<T>(Random實例,百分制概率,value1,[value2,value3...])``` => 你輸入的概率返回true，否則從[value2,value3...]中隨機返回一個<br>
-```RandomX.ChancePerItem<T>(Random實例,{[value1,百分制概率],[value2,百分制概率]...})``` => 從你輸入的概率來返回值
+```RandomX.ChancePerItem<T>(Random實例,{[value1,概率],[value2,概率]...})``` => 從你輸入的概率來返回值
