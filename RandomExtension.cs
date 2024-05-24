@@ -28,7 +28,7 @@ namespace SheepYhangCN.RandomExtension
 		}
 		public static T ChancePerItem<T>(this Random random,Dictionary<T,int> items)
 		{
-            var i = 0;
+			var i = 0;
 			foreach (var ii in items)
 			{
 				i += ii.Value;
