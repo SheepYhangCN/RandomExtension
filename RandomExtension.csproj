@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>SheepYhangCN.$(AssemblyName)</PackageId>
+    <Title>$(AssemblyName)</Title>
+    <Authors>SheepYhangCN</Authors>
+    <RepositoryUrl>https://github.com/SheepYhangCN/RandomExtension</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/SheepYhangCN/RandomExtension</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyName>SheepYhangCN.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>SheepYhangCN.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
