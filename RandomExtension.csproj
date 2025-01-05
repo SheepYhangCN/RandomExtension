@@ -13,7 +13,7 @@
     <AssemblyName>SheepYhangCN.$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>SheepYhangCN.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
