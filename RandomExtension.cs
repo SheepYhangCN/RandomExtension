@@ -22,6 +22,10 @@ namespace SheepYhangCN.RandomExtension
 		{
 			return chance >= random.NextDouble();
 		}
+		public static bool Chance(this Random random,int top,int bottom)
+		{
+			return (Convert.ToDouble(top)/Convert.ToDouble(bottom)) >= random.NextDouble();
+		}
 		public static T Chance<T>(this Random random,double chance,T result,params T[] others)
 		{
 			return Chance(random,chance) ? result : Choose(random,others);
